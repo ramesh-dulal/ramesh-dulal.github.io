@@ -1,0 +1,43 @@
+---
+title: ""
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+
+::: {.cv-page}
+
+## CV
+
+<div class="cv-download">
+  <span class="teaching-syllabus-link">
+    <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+    <a href="files/cv_Nov_28_2025.pdf" target="_blank" rel="noopener">
+      Access the detailed CV here.
+    </a>
+  </span>
+</div>
+
+::: {.cv-section}
+<div class="cv-category">Education</div>
+
+<div class="cv-item">
+  <div><strong>MA in Economics</strong></div>
+  <div>Tribhuvan University, Nepal (2008–2010)</div>
+
+  <br>
+
+  <div><strong>PhD in Economics</strong></div>
+  <div>The University of Oklahoma (2022–present)</div>
+</div>
+:::
+
+::: {.cv-section}
+<div class="cv-category">Academic Experience</div>
+
+<div class="cv-item">
+  <div><strong>Graduate Teaching Assistant</strong></div>
+  <div>The University of Oklahoma (2022–present)</div>
+</div>
+:::
+
+:::

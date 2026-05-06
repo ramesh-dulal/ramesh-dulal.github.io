@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;   
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.special-heading .amp {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #ddd !important;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 16px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: visible !important;
+}
+
+.navbar-title {
+  font-family: 'Niconne', cursive !important;
+  font-size: 50px;
+  font-weight: 400;
+  color: #1d59ad !important;
+  line-height: 1.2;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.navbar-title::after {
+  content: "PhD Candidate in Economics";
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #022454;
+  margin-top: -4px;
+  margin-left: 12px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Remove Quarto's built-in centered page-column layout */
+#quarto-content {
+  display: block !important;
+  width: 100% !important;
+}
+
+.page-columns {
+  display: block !important;
+  width: 100% !important;
+}
+
+.page-columns .content {
+  grid-column: auto !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+main.content {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 560px 520px;
+  column-gap: 340px;
+  max-width: 1300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: start;
+}
+
+.about-section {
+  max-width: 560px;
+}
+
+.profile-section {
+  max-width: 520px;
+  margin-top: 20px;
+}
+
+.profile-photo {
+  display: block;
+  width: 320px;
+  border-radius: 6px;
+  margin: 0 0 30px 0;
+}
+
+/* Optional site name class */
+.site-name {
+  font-family: 'Niconne', cursive;
+  font-size: 42px;
+  font-weight: 400;
+  color: #2c3e50;
+}
+
+.title {
+  font-weight: 700;
+}
+
+/* Research page */
+.research-page {
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+}
+
+.research-page h2 {
+  font-family: 'Niconne', cursive !important;
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.research-section {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  column-gap: 80px;
+  margin-bottom: 80px;
+  align-items: start;
+}
+
+.research-category {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.research-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.research-title {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 28px;
+}
+
+.research-journal {
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: -20px;
+}
+
+.research-link a {
+  color: #1d59ad;
+  font-weight: 500;
+}
+
+/* Teaching page */
+.teaching-page {
+  max-width: 1200px;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: auto;
+}
+
+.teaching-page h1 {
+  font-family: 'Lora', serif;
+  color: #2c3e50;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.teaching-page h2 {
+  font-family: 'Niconne', cursive !important;
+  color: #2c3e50;
+  font-size: 54px;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 45px;
+}
+
+.teaching-page p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.course-list {
+  margin-top: 25px;
+}
+
+.course-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.course-item strong {
+  font-weight: 700;
+  color: #111;
+}
+
+.course-item a {
+  color: #1d59ad;
+  font-weight: 500;
+}
+
+.course-entry {
+  margin-left: 40px;
+  margin-bottom: 14px;
+}
+
+.teaching-syllabus-link {
+  margin-left: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+
+.teaching-syllabus-link i {
+  color: #1d59ad;
+  font-size: 16px;
+}
+
+.teaching-syllabus-link a {
+  color: #1d59ad;
+  font-weight: 500;
+}
+
+/* CV page */
+.cv-page {
+  max-width: 1200px;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: auto;
+  position: relative;
+}
+
+.cv-page h2 {
+  font-family: 'Niconne', cursive !important;
+  color: #2c3e50;
+  font-size: 34px;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 80px;
+}
+
+.cv-download {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 18px;
+}
+
+.cv-section {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  column-gap: 80px;
+  margin-bottom: 85px;
+  align-items: start;
+}
+
+.cv-category {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.cv-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cv-item strong {
+  font-weight: 700;
+  color: #111;
+}
+
+/* Personal page */
+.personal-page {
+  max-width: 1200px;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: auto;
+}
+
+.personal-page h2 {
+  font-family: 'Lora', serif;
+  color: #2c3e50;
+  font-size: 34px;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 60px;
+}
+
+.personal-page h2 + h2 {
+  font-size: 30px;
+  border-bottom: none;
+  margin-bottom: 25px;
+}
+
+.personal-page .amp {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.conference-list {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.conference-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+  max-width: 1100px;
+}
+
+.conference-item strong {
+  font-weight: 700;
+  color: #111;
+}
+
+.conference-item em {
+  font-style: italic;
+}
+
+.conference-item a {
+  color: #1d59ad;
+  font-weight: 500;
+}
+
+.conference-heading {
+  font-family: 'Niconne', cursive !important;
+  font-size: 120px;
+  font-weight: 400;
+  color: #1d59ad;
+}
+
+.conference-heading .amp {
+  font-family: 'Playfair Display', serif !important;
+  font-style: normal;
+  font-weight: 700;
+}

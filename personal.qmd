@@ -1,0 +1,32 @@
+---
+title: ""
+---
+
+::: {.personal-page}
+
+<h2 class="conference-heading">
+  Conferences Attended <span class="amp">&</span> Presentations
+</h2>
+
+::: {.conference-list}
+
+::: {.conference-item}
+**Oct 2025** — *The Ripple Effect: Nepal's 2015 Earthquake and Age at First Birth* — Missouri Valley Economic Association, 62nd Annual Meeting, Kansas City, MO
+[<a href="https://www.mvea.net/program.html" target="_blank" rel="noopener">program</a>] 
+:::
+
+::: {.conference-item}
+**Mar 2025** — *Shaken to the Core: The Effect of Nepal’s 2015 Earthquake on Infant Death* — 89th 
+Annual Meetings of the Midwest Economics Association, Kansas City, 
+MO [<a href="https://mea.sites.grinnell.edu/annual-meetings/previous-conferences/" target="_blank" rel="noopener">program</a>]
+:::
+
+::: {.conference-item}
+**Oct 2024** — *Heterogeneous Impact of Earthquake on Infant Mortality* — Missouri Valley Economic 
+Association, 61st Annual Meeting, Kansas City, 
+MO [<a href="https://www.mvea.net/" target="_blank" rel="noopener">program</a>]
+:::
+
+:::
+
+:::

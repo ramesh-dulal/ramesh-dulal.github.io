@@ -1,0 +1,25 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ramesh Dulal"
+  navbar:
+    right:
+      - href: index.qmd
+        text: About Me
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: personal.qmd
+        text: Personal
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: false

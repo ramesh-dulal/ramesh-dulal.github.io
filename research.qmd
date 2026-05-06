@@ -1,0 +1,35 @@
+---
+title: ""
+---
+
+::: {.research-page}
+## Research
+
+::: {.research-section}
+
+<div class="research-category">Work in Progress</div>
+
+<div class="research-item">
+  <div class="research-title">The Ripple Effect: Nepal's 2015 Earthquake and Age at First Birth</div>
+  <div class="research-title">Escaping Violence or Trapped by It? Long Run Effects of Civil
+     Conflict on International Migration in Nepal</div>
+</div>
+
+    
+:::
+
+::: {.research-section}
+
+<div class="research-category">Publications</div>
+
+<div class="research-item">
+  <div class="research-title">Do Remittances Improve Nutritional Take-Up? Analysis of Child Nutrition in Nepal</div>
+  <div class="research-journal"><em>Journal of Development Innovations</em>, 2022, Vol. 6, No. 1, pp. 69-94</div>
+  <div class="research-link">
+  <a href="https://www.karmaquest.org/journal/index.php/journal/article/view/63" target="_blank">View Paper</a>
+  </div>
+</div>
+
+:::
+
+:::
