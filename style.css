@@ -4,8 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.6;
   font-size: 16px;
 }
@@ -27,7 +29,7 @@ h1, h2, h3 {
   background-color: white !important;
   box-shadow: none !important;
   border-bottom: 1px solid #ddd !important;
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Ubuntu', sans-serif;  
   font-size: 16px;
 }
 
@@ -49,9 +51,9 @@ h1, h2, h3 {
 }
 
 .navbar-title::after {
-  content: "PhD Candidate in Economics";
+  content: "Ph.D. Candidate in Economics";
   display: block;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #022454;
@@ -133,14 +135,18 @@ main.content {
 /* Research page */
 .research-page {
   max-width: 1200px;
-  margin: 80px auto 0 auto;
+  margin: 40px auto 0 auto;
 }
+
 
 .research-page h2 {
   font-family: 'Niconne', cursive !important;
-  font-size: 54px;
+  color: #2c3e50;
+  font-size: 30px;
   font-weight: 700;
-  margin-bottom: 100px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 45px;
 }
 
 .research-section {
@@ -152,29 +158,29 @@ main.content {
 }
 
 .research-category {
-  font-family: 'Lora', serif;
-  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
   font-weight: 600;
   color: #2c3e50;
   line-height: 1.2;
 }
 
 .research-item {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-family: 'Lora', sans-serif;
+  font-size: 13px;
   line-height: 1.6;
 }
 
 .research-title {
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   color: #111;
   margin-bottom: 28px;
 }
 
 .research-journal {
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 8px;
   margin-top: -20px;
 }
@@ -187,23 +193,16 @@ main.content {
 /* Teaching page */
 .teaching-page {
   max-width: 1200px;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 180px;
   margin-right: auto;
 }
 
-.teaching-page h1 {
-  font-family: 'Lora', serif;
-  color: #2c3e50;
-  font-size: 34px;
-  font-weight: 700;
-  margin-bottom: 70px;
-}
 
 .teaching-page h2 {
   font-family: 'Niconne', cursive !important;
   color: #2c3e50;
-  font-size: 54px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
@@ -211,8 +210,8 @@ main.content {
 }
 
 .teaching-page p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -252,7 +251,7 @@ main.content {
 
 .teaching-syllabus-link i {
   color: #1d59ad;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .teaching-syllabus-link a {
@@ -263,7 +262,7 @@ main.content {
 /* CV page */
 .cv-page {
   max-width: 1200px;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 180px;
   margin-right: auto;
   position: relative;
@@ -272,18 +271,19 @@ main.content {
 .cv-page h2 {
   font-family: 'Niconne', cursive !important;
   color: #2c3e50;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
-  margin-bottom: 80px;
+  margin-bottom: 45px;
 }
+
 
 .cv-download {
   position: absolute;
   top: 10px;
   right: 0;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .cv-section {
@@ -295,16 +295,16 @@ main.content {
 }
 
 .cv-category {
-  font-family: 'Lora', serif;
-  font-size: 28px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   color: #2c3e50;
   line-height: 1.2;
 }
 
 .cv-item {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
   line-height: 1.6;
 }
 
@@ -316,19 +316,19 @@ main.content {
 /* Personal page */
 .personal-page {
   max-width: 1200px;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 180px;
   margin-right: auto;
 }
 
 .personal-page h2 {
-  font-family: 'Lora', serif;
+  font-family: 'Niconne', cursive !important;
   color: #2c3e50;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
-  margin-bottom: 60px;
+  margin-bottom: 45px;
 }
 
 .personal-page h2 + h2 {
@@ -349,8 +349,8 @@ main.content {
 }
 
 .conference-item {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
   line-height: 1.7;
   margin-bottom: 28px;
   max-width: 1100px;
@@ -367,18 +367,37 @@ main.content {
 
 .conference-item a {
   color: #1d59ad;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 200;
 }
 
-.conference-heading {
+
+/* Home page headings: About Me and Contact */
+.about-section h2,
+.profile-section h2 {
   font-family: 'Niconne', cursive !important;
-  font-size: 120px;
-  font-weight: 400;
-  color: #1d59ad;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.1;
 }
 
-.conference-heading .amp {
-  font-family: 'Playfair Display', serif !important;
-  font-style: normal;
-  font-weight: 700;
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.social-footer a {
+  color: #1d59ad;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.social-footer a:hover {
+  color: #003366;
 }

@@ -6,7 +6,7 @@ title: ""
 
 ::: {.cv-page}
 
-## CV Ramesh
+## CV
 
 <div class="cv-download">
   <span class="teaching-syllabus-link">
