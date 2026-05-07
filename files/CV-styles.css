@@ -1,0 +1,207 @@
+/* Import Google Fonts at the very top so Quarto can inline them */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@page {
+    size: A4;
+    margin: 15mm 15mm 5mm 15mm;
+}
+
+/* Hide Quarto's built-in title/date block */
+#title-block-header {
+    display: none;
+}
+
+.cv-page {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.4;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 15mm 15mm;
+    background-color: #fff;
+    font-size: 9.5pt;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.name {
+    font-size: 2.2em;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.name strong {
+    font-weight: 700;
+}
+
+.contact {
+    font-size: 0.8em;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.amp {
+    font-family: 'Playfair Display', serif;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+    font-size: 0.75em;
+    color: #00796b;
+    text-align: right;
+}
+
+/* Section Headers */
+.cv-page h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #333;
+    display: block;
+    width: fit-content;
+}
+
+/* Entry Layout */
+.entry {
+    margin-bottom: 7px;
+}
+
+.entry-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.entry-title {
+    font-weight: 500;
+    color: #333;
+    flex-shrink: 4;
+}
+
+.entry-location {
+    color: #333;
+    font-size: 0.9em;
+    text-align: right;
+    flex-shrink: 2;
+    margin-left: 10px;
+}
+
+.entry-dates {
+    color: #666;
+    font-style: normal;
+    font-size: 0.85em;
+}
+
+.entry-desc {
+    color: #555;
+    font-size: 0.85em;
+}
+
+.entry-left {
+    flex: 3;
+}
+
+.latex {
+    font-family: 'Times New Roman', 'Playfair Display', serif;
+}
+
+.latex sup {
+    font-size: 0.75em;
+    vertical-align: 0.35em;
+    margin-left: -0.2em;
+    margin-right: -0.1em;
+}
+
+.latex sub {
+    font-size: 0.65em;
+    vertical-align: -0.2em;
+    margin-left: -0.15em;
+    margin-right: -0.15em;
+}
+
+/* Skills */
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills-item strong {
+    color: #333;
+}
+
+/* Lists */
+.cv-page ul {
+    margin: 2px 0 0 16px;
+    padding: 0;
+}
+
+.cv-page li {
+    color: #444;
+    margin-bottom: 0px;
+    font-size: 0.9em;
+}
+
+/* Links */
+.cv-page a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.cv-page a:hover {
+    text-decoration: underline;
+}
+
+/* Print */
+@media print {
+    .cv-page {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .cv-page h2 {
+        page-break-after: avoid;
+        width: fit-content !important;
+    }
+    .entry { page-break-inside: avoid; }
+}

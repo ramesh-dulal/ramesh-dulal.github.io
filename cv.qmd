@@ -11,7 +11,7 @@ title: ""
 <div class="cv-download">
   <span class="teaching-syllabus-link">
     <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
-    <a href="files/cv_Nov_28_2025.pdf" target="_blank" rel="noopener">
+    <a href="files/Ramesh_Dulal_05_2026.pdf" target="_blank" rel="noopener">
       Access the detailed CV here.
     </a>
   </span>

@@ -13,16 +13,20 @@ I have been involved in teaching the following courses.
 ::: {.course-list}
 
 ::: {.course-item}
-<div class="course-entry">
-<strong>ECON 1123: Principles of Microeconomics</strong> — Instructor, Fall 2024, University of Oklahoma
-</div>
 
-<span class="teaching-syllabus-link">
+<div class="course-entry">
+  <div>
+  <strong>ECON 1123: Principles of Microeconomics</strong> — Instructor, Fall 2024, University of Oklahoma
+  </div>
+
+  <div class="teaching-syllabus-link">
   <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
   <a href="files/ECON 1123: Principle of Microeconomics.pdf" target="_blank" rel="noopener">
-    Please find the syllabus here
-  </a>
-</span>
+      Please find the syllabus here
+    </a>
+  </div>
+</div>
+
 :::
 
 ::: {.course-item}

@@ -7,235 +7,19 @@ format:
     toc: false
     embed-resources: true
     theme: none
-  pdf:
-    documentclass: article
-    geometry:
-      - margin=15mm
-    include-in-header:
-      text: |
-        \usepackage{fancyhdr}
-        \pagestyle{fancy}
-        \fancyhf{}
-        \renewcommand{\headrulewidth}{0pt}
-        \fancyfoot[R]{\small\textcolor{gray}{Last Updated: \today}}
+    css: CV-styles.css
 ---
 
 ```{=html}
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@page {
-    size: A4;
-    margin: 15mm 15mm 5mm 15mm;
-  }
-
-/* Hide Quarto's built-in title/date block */
-#title-block-header {
-    display: none;
-}
-
-.cv-page {
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-    line-height: 1.4;
-    width: 210mm;
-    min-height: 297mm;
-    margin: 0 auto;
-    padding: 15mm 15mm;
-    background-color: #fff;
-    font-size: 9.5pt;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Header */
-.header {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 45px;
-  }
-
-.name {
-    font-size: 2.2em;
-    font-weight: 400;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.name strong {
-    font-weight: 700;
-}
-
-
-.contact {
-    font-size: 0.8em;
-    color: #555;
-    margin-bottom: 3px;
-}
-
-.contact a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
-
-.amp {
-    font-family: 'Playfair Display', serif;
-    }
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 5px 0;
-    font-size: 0.75em;
-    color: #00796b;
-    text-align: right;
-}
-
-/* Section Headers */
-h2 {
-    font-size: 0.95em;
-    font-weight: 600;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-top: 12px;
-    margin-bottom: 5px;
-    padding-bottom: 3px;
-    border-bottom: 2px solid #333;
-    display: block;
-    width: fit-content;
-    }
-
-/* Entry Layout */
-.entry {
-    margin-bottom: 7px;
-}
-
-.entry-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: nowrap;
-}
-
-.entry-title {
-    font-weight: 500;
-    color: #333;
-    flex-shrink: 4;
-  }
-
-.entry-location {
-    color: #333;
-    font-size: 0.9em;
-    text-align: right;
-    flex-shrink: 2;
-    margin-left: 10px;
-}
-
-.entry-dates {
-    color: #666;
-    font-style: normal;
-    font-size: 0.85em;
-}
-
-.entry-desc {
-    color: #555;
-    font-size: 0.85em;
-}
-
-.entry-left {
-    flex: 3;
-}
-
-.latex {
-  font-family: 'Times New Roman', 'Playfair Display', serif;
-}
-
-.latex sup {
-  font-size: 0.75em;
-  vertical-align: 0.35em;
-  margin-left: -0.2em;
-  margin-right: -0.1em;
-}
-
-.latex sub {
-  font-size: 0.65em;
-  vertical-align: -0.2em;
-  margin-left: -0.15em;
-  margin-right: -0.15em;
-}
-/* Skills */
-.skills-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.skills-item strong {
-    color: #333;
-}
-
-/* Lists */
-ul {
-    margin: 2px 0 0 16px;
-    padding: 0;
-}
-
-li {
-    color: #444;
-    margin-bottom: 0px;
-    font-size: 0.9em;
-}
-
-/* Links */
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Print */
-@media print {
-    .cv-page { 
-        padding: 0; 
-        margin: 0;
-        width: 100%;
-    }
-    h2 { page-break-after: avoid;
-        width: fit-content !important;
-    }
-    .entry { page-break-inside: avoid; }
-}
-</style>
-
 <div class="cv-page">
 
 <div class="header">
     <div class="name">Ramesh <strong>Dulal</strong></div>
     <div class="contact">
-        <a href="mailto:ramesh.dulal@ou.edu">ramesh.dulal@ou.edu</a> | 
-        (405)-326-5305 | 
-        <a href="https://dulal-ramesh.github.io">dulal-ramesh.github.io</a> | 
-        <a href="https://github.com/Dulal-Ramesh">GitHub</a> | 
+        <a href="mailto:ramesh.dulal@ou.edu">ramesh.dulal@ou.edu</a> |
+        (405)-326-5305 |
+        <a href="https://ramesh-dulal.github.io">ramesh-dulal.github.io</a> |
+        <a href="https://github.com/Dulal-Ramesh">GitHub</a> |
         <a href="https://linkedin.com/in/ramesh-dulal">LinkedIn</a>
     </div>
 </div>
@@ -265,8 +49,6 @@ a:hover {
     </div>
     <div class="entry-dates">2003 – 2006</div>
 </div>
-
-
 
 <h2>Experience</h2>
 
@@ -399,21 +181,16 @@ a:hover {
     </div>
 </div>
 
-
 <h2>Skills</h2>
 
- <div class="skills-row">
-     <div class="skills-item"><strong>Coding:</strong> STATA, <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>, R</div>
-     <div class="skills-item"><strong>Languages:</strong> English, Nepali, Hindi</div>
- </div>
+<div class="skills-row">
+    <div class="skills-item"><strong>Coding:</strong> STATA, <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>, R</div>
+    <div class="skills-item"><strong>Languages:</strong> English, Nepali, Hindi</div>
+</div>
 
 <div class="footer">
     Last Updated: {{< meta date >}}
 </div>
- 
- </div> <!-- end .cv-page -->
 
-
-</body>
-</html>
+</div> <!-- end .cv-page -->
 ```
