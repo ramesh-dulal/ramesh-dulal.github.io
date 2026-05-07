@@ -17,16 +17,7 @@ website:
         text: CV
       - href: personal.qmd
         text: Personal
-
-format:
-  html:
-    theme: cosmo
-    css: style.css
-    toc: false
-    include-in-header:
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-page-footer:
+  page-footer:
     center: |
       <div class="social-footer">
         <a href="https://github.com/Dulal-Ramesh" target="_blank" rel="noopener">
@@ -42,3 +33,12 @@ page-footer:
           <i class="fa-solid fa-graduation-cap"></i>
         </a>
       </div>
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">

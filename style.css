@@ -382,20 +382,31 @@ main.content {
   line-height: 1.1;
 }
 
+.nav-footer {
+  border-top: 1px solid #ddd !important;
+  margin-top: 60px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
 .social-footer {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
-  gap: 22px;
-  padding-top: 20px;
+  gap: 40px !important;
+  padding-top: 4px;
   padding-bottom: 20px;
-  border-top: 1px solid #ddd;
 }
 
 .social-footer a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
   color: #1d59ad;
   font-size: 22px;
   text-decoration: none;
+  margin-left: 12px !important;
+  margin-right: 12px !important;
 }
 
 .social-footer a:hover {
