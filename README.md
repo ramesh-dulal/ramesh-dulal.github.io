@@ -9,6 +9,7 @@ Source for [ramesh-dulal.github.io](https://ramesh-dulal.github.io/), built with
 - `style.css`: site styles
 - `images/`: profile photo
 - `files/`: CV source (`CV_Ramesh_Dulal.qmd`, `CV-styles.css`), CV PDF, and course syllabi
+- `update_cv.sh`: rebuilds the CV PDF and publishes
 - `docs/`: rendered site (generated; do not edit by hand)
 
 ## Updating the site
@@ -20,7 +21,7 @@ git add -A && git commit -m "Update website" && git push
 
 ## Updating the CV
 
-1. Edit `files/CV_Ramesh_Dulal.qmd` and run `quarto render`.
-2. Open `docs/files/CV_Ramesh_Dulal.html` in **Chrome** and print to PDF (A4, no headers/footers). Chrome is needed for the "Last Updated" date on every page.
-3. Save it in `files/` as `Ramesh_Dulal_MM_YYYY.pdf`, update the link in `cv.qmd`, and delete the old PDF.
-4. Run `quarto render` again and commit.
+1. Edit `files/CV_Ramesh_Dulal.qmd`.
+2. Run `./update_cv.sh`. It renders the site, prints the CV to `files/Ramesh_Dulal_CV.pdf` with Chrome (needed for the "Last Updated" date on every page), and asks before committing and pushing.
+
+The CV page always links to `files/Ramesh_Dulal_CV.pdf`, so the file name never changes.
