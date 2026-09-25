@@ -35,6 +35,22 @@ I have been involved in teaching the following courses.
 </div>
 :::
 
+::: {.course-item}
+
+<div class="course-entry">
+  <div>
+  <strong>ECON 3113: Intermediate Microeconomics</strong> — Instructor, Summer 2026, University of Oklahoma
+  </div>
+
+  <div class="teaching-syllabus-link">
+  <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+  <a href="files/ECON 3113: Intermediate Microeconomics.pdf" target="_blank" rel="noopener">
+      Please find the syllabus here
+    </a>
+  </div>
+</div>
+
+:::
 :::
 
 :::
