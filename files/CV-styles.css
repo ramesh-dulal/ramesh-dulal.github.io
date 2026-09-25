@@ -14,7 +14,7 @@
 
 @page {
     size: A4;
-    margin: 15mm 15mm 5mm 15mm;
+    margin: 15mm 15mm 12mm 15mm;
 }
 
 /* Hide Quarto's built-in title/date block */
@@ -74,11 +74,7 @@
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 5px 0;
+    margin-top: 20px;
     font-size: 0.75em;
     color: #00796b;
     text-align: right;
@@ -203,5 +199,22 @@
         page-break-after: avoid;
         width: fit-content !important;
     }
-    .entry { page-break-inside: avoid; }
+    /* On paper the date comes from the @page footer instead */
+    .footer {
+        display: none;
+    }
+    .entry,
+    .keep-together {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+}
+/* Course list with right-aligned term */
+.cv-page li.course-line span:first-child {
+    display: inline;
+}
+
+.cv-page li.course-line .entry-dates {
+    float: right;
+    margin-left: 10px;
 }

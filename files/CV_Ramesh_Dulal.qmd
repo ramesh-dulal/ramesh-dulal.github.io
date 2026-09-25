@@ -24,6 +24,7 @@ format:
     </div>
 </div>
 
+<div class="keep-together">
 <h2>Education</h2>
 
 <div class="entry">
@@ -32,6 +33,7 @@ format:
         <span class="entry-location">University of Oklahoma, USA</span>
     </div>
     <div class="entry-dates">2022 – Present</div>
+</div>
 </div>
 
 <div class="entry">
@@ -50,6 +52,7 @@ format:
     <div class="entry-dates">2003 – 2006</div>
 </div>
 
+<div class="keep-together">
 <h2>Experience</h2>
 
 <div class="entry">
@@ -58,10 +61,7 @@ format:
         <span class="entry-location">University of Oklahoma, USA</span>
     </div>
     <div class="entry-dates">2022 – Present</div>
-    <ul>
-        <li>Principles of Macroeconomics (ECON 1113) — Aug 2023 to May 2024</li>
-        <li>Principles of Microeconomics (ECON 1123) — Aug 2022 to May 2023</li>
-    </ul>
+</div>
 </div>
 
 <div class="entry">
@@ -70,9 +70,6 @@ format:
         <span class="entry-location">Tribhuvan University, Nepal</span>
     </div>
     <div class="entry-dates">2017 – 2022</div>
-    <ul>
-        <li>Microeconomics (ECON 421), Mathematics <span class="amp">&</span> Statistics for Economics (ECON 422)</li>
-    </ul>
 </div>
 
 <div class="entry">
@@ -81,18 +78,63 @@ format:
         <span class="entry-location">Goldengate International College, Nepal</span>
     </div>
     <div class="entry-dates">Apr 2019 – Jun 2022</div>
+</div>
+
+<div class="keep-together">
+<h2>Teaching Experience</h2>
+
+<div class="entry">
+    <div class="entry-line">
+        <span class="entry-title">Instructor of Record</span>
+        <span class="entry-location">University of Oklahoma, USA</span>
+    </div>
     <ul>
-        <li>Microeconomics-I <span class="amp">&</span> II (ECON 551, 555), Monetary Economics (ECON 559)</li>
+        <li class="course-line"><span>Intermediate Microeconomics (ECON 3113)</span><span class="entry-dates">Summer 2026</span></li>
+    </ul>
+</div>
+</div>
+
+<div class="entry">
+    <div class="entry-line">
+        <span class="entry-title">Teaching Assistant</span>
+        <span class="entry-location">University of Oklahoma, USA</span>
+    </div>
+    <ul>
+        <li class="course-line"><span>Principles of Macroeconomics (ECON 1113)</span><span class="entry-dates">Aug 2023 – May 2024</span></li>
+        <li class="course-line"><span>Principles of Microeconomics (ECON 1123)</span><span class="entry-dates">Aug 2022 – May 2023</span></li>
     </ul>
 </div>
 
+<div class="entry">
+    <div class="entry-line">
+        <span class="entry-title">Instructor</span>
+        <span class="entry-location">Tribhuvan University, Nepal</span>
+    </div>
+    <ul>
+        <li class="course-line"><span>Microeconomics (ECON 421), Mathematics <span class="amp">&</span> Statistics for Economics (ECON 422)</span><span class="entry-dates">2017 – 2022</span></li>
+    </ul>
+</div>
+
+<div class="entry">
+    <div class="entry-line">
+        <span class="entry-title">Instructor</span>
+        <span class="entry-location">Goldengate International College, Nepal</span>
+    </div>
+    <ul>
+        <li class="course-line"><span>Microeconomics I <span class="amp">&</span> II (ECON 551, 555), Monetary Economics (ECON 559)</span><span class="entry-dates">Apr 2019 – Jun 2022</span></li>
+    </ul>
+</div>
+
+<div class="keep-together">
 <h2>Publications</h2>
 
 <div class="entry">
     <span class="entry-title">"Do Remittances Improve Nutritional Take-Up? Analysis of Child Nutrition in Nepal"</span><br>
     <span class="entry-desc"><em>Journal of Development Innovations</em>, 6(1), 69-64. <a href="https://www.karmaquest.org/journal/index.php/journal/issue/view/1">Link</a></span>
 </div>
+</div>
 
+<div class="keep-together">
 <h2>Conferences <span class="amp">&</span> Presentations</h2>
 
 <div class="entry">
@@ -103,6 +145,7 @@ format:
         </div>
         <span class="entry-location">Missouri Valley Economic Association<br>62nd Annual Meeting<br>Kansas City, MO</span>
     </div>
+</div>
 </div>
 
 <div class="entry">
@@ -125,6 +168,7 @@ format:
     </div>
 </div>
 
+<div class="keep-together">
 <h2>Honors <span class="amp">&</span> Awards</h2>
 
 <div class="entry">
@@ -134,7 +178,9 @@ format:
     </div>
     <div class="entry-dates">2024</div>
 </div>
+</div>
 
+<div class="keep-together">
 <h2>Trainings</h2>
 
 <div class="entry">
@@ -142,6 +188,7 @@ format:
         <span class="entry-title">Summer School in Environmental and Resource Economics</span>
         <span class="entry-location">Bangkok, Thailand — May 2019</span>
     </div>
+</div>
 </div>
 
 <div class="entry">
@@ -165,6 +212,7 @@ format:
     </div>
 </div>
 
+<div class="keep-together">
 <h2>Service</h2>
 
 <div class="entry">
@@ -172,6 +220,7 @@ format:
         <span class="entry-title">Senator, Graduate Student Senate (Ways and Means Committee)</span>
         <span class="entry-location">University of Oklahoma — 2023–Present</span>
     </div>
+</div>
 </div>
 
 <div class="entry">
@@ -181,16 +230,31 @@ format:
     </div>
 </div>
 
+<div class="keep-together">
 <h2>Skills</h2>
 
 <div class="skills-row">
     <div class="skills-item"><strong>Coding:</strong> STATA, <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>, R</div>
     <div class="skills-item"><strong>Languages:</strong> English, Nepali, Hindi</div>
 </div>
+</div>
 
 <div class="footer">
     Last Updated: {{< meta date >}}
 </div>
+
+<!-- Printed footer: repeated on every page (Chrome/Edge print) -->
+<style>
+@page {
+    @bottom-right {
+        content: "Last Updated: {{< meta date >}}";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7pt;
+        color: #00796b;
+        vertical-align: top;
+    }
+}
+</style>
 
 </div> <!-- end .cv-page -->
 ```
