@@ -30,9 +30,13 @@ I have been involved in teaching the following courses.
 :::
 
 ::: {.course-item}
+
 <div class="course-entry">
-<strong>ECON 1113: Principles of Macroeconomics</strong> — Instructor, Winter 2024, University of Oklahoma
+  <div>
+  <strong>ECON 1113: Principles of Macroeconomics</strong> — Instructor, Winter 2024, University of Oklahoma
+  </div>
 </div>
+
 :::
 
 ::: {.course-item}
