@@ -20,7 +20,7 @@ the undergraduate level.
 :::
 
 :::{.profile-section}
-![](images/profile.jpg){.profile-photo}
+![](images/Ramesh_Dulal_profile.jpg){.profile-photo}
 
 ## Contact
 
